@@ -1,0 +1,6 @@
+image: martyjhenderson/gitpod-typescript:0.1.0
+
+tasks:
+  - name: Hello world
+    init: tsc hw.ts
+    command: node hw.js
